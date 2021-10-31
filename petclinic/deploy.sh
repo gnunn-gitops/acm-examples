@@ -1,0 +1,1 @@
+kustomize build acm/petclinic/base | oc apply -f -

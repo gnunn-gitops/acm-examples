@@ -1,0 +1,15 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: petclinic
+  labels:
+    app: petclinic
+  annotations:
+    apps.open-cluster-management.io/github-path: petclinic/components/base
+    apps.open-cluster-management.io/github-branch: main
+spec:
+  channel: petclinic/petclinic
+  placement:
+    placementRef:
+      kind: PlacementRule
+      name: petclinic
