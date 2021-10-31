@@ -1,0 +1,1 @@
+Some bad application examples from Martin Ouilmet (https://gitlab.com/marouim/redhat-acm-demo-manifests)
