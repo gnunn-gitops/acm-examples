@@ -1,0 +1,9 @@
+namespace: bad-apps
+
+resources:
+- namespace.yaml
+- channel.yaml
+- application.yaml
+- subscription.yaml
+- tower-secret.yaml
+- placementrule.yaml

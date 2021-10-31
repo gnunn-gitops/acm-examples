@@ -1,0 +1,10 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  labels:
+    app: bad-apps
+  name: bad-apps
+spec:
+  clusterSelector:
+    matchLabels:
+      env: dev
